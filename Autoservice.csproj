@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="car.png" />
+    <None Remove="client.png" />
+    <None Remove="mechanic.png" />
+    <None Remove="Screenshot_7.png" />
+    <None Remove="software-engineer.png" />
+    <None Remove="warehouse.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="car.png" />
+    <Resource Include="client.png" />
+    <Resource Include="mechanic.png" />
+    <Resource Include="Screenshot_7.png" />
+    <Resource Include="software-engineer.png" />
+    <Resource Include="warehouse.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="SkladChangePart.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

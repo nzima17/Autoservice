@@ -1,0 +1,20 @@
+﻿<Window x:Class="Autoservice.AdminAddToCatalog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Autoservice"
+        mc:Ignorable="d"
+        Title="AdminAddToCatalog" Height="400" Width="500">
+    <Grid Background="Goldenrod">
+        <Label Content="Авто Мастерская Экспресс" HorizontalAlignment="Left" Margin="77,33,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="20"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="306,0,0,0" VerticalAlignment="Top" Width="100" Source="/software-engineer.png"/>
+        <Label Content="Добавление услуги в каталог услуг" HorizontalAlignment="Center" Margin="0,111,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="18"/>
+        <Button Content="Вернуться на главный экран" HorizontalAlignment="Center" Margin="0,336,0,0" VerticalAlignment="Top" Background="Goldenrod" BorderBrush="#FFF9F9F9" FontFamily="Adobe Caslon Pro Bold" FontSize="17" Foreground="#FFF9F9F9" Width="480" Height="25" Click="Button_Click" />
+        <Button Content="Сохранить изменения" HorizontalAlignment="Center" Margin="0,297,0,0" VerticalAlignment="Top" Background="Goldenrod" BorderBrush="#FFF9F9F9" FontFamily="Adobe Caslon Pro Bold" FontSize="17" Foreground="#FFF9F9F9" Width="480" Height="25" Click="Button_Click1" />
+        <Label Content="Введите название услуги, который вы хотите добавить:" HorizontalAlignment="Left" Margin="21,148,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="15"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Margin="21,181,0,0" VerticalAlignment="Top" Width="298" Height="25" FontFamily="Adobe Fan Heiti Std B" FontSize="15" Opacity="0.9"/>
+        <Label Content="Введите цену услуги, который вы хотите добавить:" HorizontalAlignment="Left" Margin="21,224,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="15"/>
+        <TextBox x:Name="price" HorizontalAlignment="Left" Margin="21,257,0,0" VerticalAlignment="Top" Width="298" Height="25" FontFamily="Adobe Fan Heiti Std B" FontSize="15" Opacity="0.9"/>
+    </Grid>
+</Window>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AdminAddToCatalog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminChangeCatalog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminDeleteCatalog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminDeleteOrder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminMain.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminShowOrders.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClientAddOrder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClientAddReview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClientMain.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClientShowCatalog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ClientShowStatus.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MechanikChangeStatus.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MechanikMain.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MechanikShowProblem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MechanikShowReview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MechanikShowSpareParts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SkladAddPart.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SkladMain.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SkladPartsDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SkladPartsUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserRegister.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AdminAddToCatalog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminChangeCatalog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminDeleteCatalog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminDeleteOrder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminMain.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminShowOrders.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClientAddOrder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClientAddReview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClientMain.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClientShowCatalog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ClientShowStatus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MechanikChangeStatus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MechanikMain.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MechanikShowProblem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MechanikShowReview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MechanikShowSpareParts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SkladAddPart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SkladMain.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SkladPartsDelete.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SkladPartsUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserRegister.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

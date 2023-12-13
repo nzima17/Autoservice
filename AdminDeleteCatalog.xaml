@@ -1,0 +1,19 @@
+﻿<Window x:Class="Autoservice.AdminDeleteCatalog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Autoservice"
+        mc:Ignorable="d"
+        Title="AdminDeleteCatalog" Height="480" Width="500">
+    <Grid Background="Goldenrod">
+        <Label Content="Авто Мастерская Экспресс" HorizontalAlignment="Left" Margin="77,33,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="20"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="306,0,0,0" VerticalAlignment="Top" Width="100" Source="/software-engineer.png"/>
+        <Label Content="Удаление услуги из каталога услуг" HorizontalAlignment="Center" Margin="0,111,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="18"/>
+        <Button Content="Вернуться на главный экран" HorizontalAlignment="Center" Margin="0,410,0,0" VerticalAlignment="Top" Background="Goldenrod" BorderBrush="#FFF9F9F9" FontFamily="Adobe Caslon Pro Bold" FontSize="17" Foreground="#FFF9F9F9" Width="480" Height="25" Click="Button_Click" />
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="376,361,0,0" VerticalAlignment="Top" Background="Goldenrod" BorderBrush="#FFF9F9F9" FontFamily="Adobe Caslon Pro Bold" FontSize="17" Foreground="#FFF9F9F9" Width="109" Height="25" Click="Button_Click1" />
+        <Label Content="Введите id услуги, который вы хотите удалить:" HorizontalAlignment="Left" Margin="10,357,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="15"/>
+        <TextBox x:Name="id" HorizontalAlignment="Left" Margin="331,361,0,0" VerticalAlignment="Top" Width="40" Height="25" FontFamily="Adobe Fan Heiti Std B" FontSize="15" Opacity="0.9"/>
+        <DataGrid x:Name="catalog" Margin="10,148,10,112" IsReadOnly="True" FontFamily="Adobe Caslon Pro"/>
+    </Grid>
+</Window>

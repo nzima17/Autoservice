@@ -1,0 +1,31 @@
+﻿<Window x:Class="Autoservice.SkladPartsUpdate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Autoservice"
+        mc:Ignorable="d"
+        Title="SkladPartsUpdate" Height="685" Width="500">
+    <Grid Background="Goldenrod">
+        <Label Content="Авто Мастерская Экспресс" HorizontalAlignment="Left" Margin="77,33,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="20"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="319,0,0,0" VerticalAlignment="Top" Width="100" Source="/warehouse.png"/>
+        <Label Content="Добавление запчасти" HorizontalAlignment="Center" Margin="0,111,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="18"/>
+        <Button Content="Вернуться на главный экран" HorizontalAlignment="Center" Margin="0,618,0,0" VerticalAlignment="Top" Background="Goldenrod" BorderBrush="#FFF9F9F9" FontFamily="Adobe Caslon Pro Bold" FontSize="17" Foreground="#FFF9F9F9" Width="480" Height="25" Click="Button_Click" />
+        <Button Content="Сохранить изменения" HorizontalAlignment="Center" Margin="0,579,0,0" VerticalAlignment="Top" Background="Goldenrod" BorderBrush="#FFF9F9F9" FontFamily="Adobe Caslon Pro Bold" FontSize="17" Foreground="#FFF9F9F9" Width="480" Height="25" Click="Button_Click1" />
+        <Label Content="Введите новое название запчасти:" HorizontalAlignment="Left" Margin="21,199,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="15"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Margin="21,232,0,0" VerticalAlignment="Top" Width="298" Height="25" FontFamily="Adobe Fan Heiti Std B" FontSize="15" Opacity="0.9"/>
+        <Label Content="Введите новую категорию:" HorizontalAlignment="Left" Margin="21,261,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="15"/>
+        <TextBox x:Name="category" HorizontalAlignment="Left" Margin="21,294,0,0" VerticalAlignment="Top" Width="298" Height="25" FontFamily="Adobe Fan Heiti Std B" FontSize="15" Opacity="0.9"/>
+        <Label Content="Введите новую модель авто:" HorizontalAlignment="Left" Margin="21,320,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="15"/>
+        <TextBox x:Name="model" HorizontalAlignment="Left" Margin="21,353,0,0" VerticalAlignment="Top" Width="298" Height="25" FontFamily="Adobe Fan Heiti Std B" FontSize="15" Opacity="0.9"/>
+        <Label Content="Введите описание:" HorizontalAlignment="Left" Margin="21,379,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="15"/>
+        <TextBox x:Name="desc" HorizontalAlignment="Left" Margin="21,412,0,0" VerticalAlignment="Top" Width="298" Height="37" FontFamily="Adobe Fan Heiti Std B" FontSize="15" Opacity="0.9"/>
+        <Label Content="Введите количество:" HorizontalAlignment="Left" Margin="21,449,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="15"/>
+        <TextBox x:Name="stock" HorizontalAlignment="Left" Margin="21,482,0,0" VerticalAlignment="Top" Width="298" Height="25" FontFamily="Adobe Fan Heiti Std B" FontSize="15" Opacity="0.9"/>
+        <Label Content="Введите новую цену:" HorizontalAlignment="Left" Margin="21,504,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="15"/>
+        <TextBox x:Name="price" HorizontalAlignment="Left" Margin="21,537,0,0" VerticalAlignment="Top" Width="298" Height="25" FontFamily="Adobe Fan Heiti Std B" FontSize="15" Opacity="0.9"/>
+        <Label Content="Введите id запчасти, который вы хотите изменить:" HorizontalAlignment="Left" Margin="21,141,0,0" VerticalAlignment="Top" FontFamily="Impact" Foreground="#FFF9F9F9" FontSize="15"/>
+        <TextBox x:Name="id" HorizontalAlignment="Left" Margin="21,175,0,0" VerticalAlignment="Top" Width="298" Height="24" FontFamily="Adobe Fan Heiti Std B" FontSize="15" Opacity="0.9"/>
+        <Button Content="ОК" HorizontalAlignment="Left" Margin="324,174,0,0" VerticalAlignment="Top" Background="Goldenrod" BorderBrush="#FFF9F9F9" FontFamily="Adobe Caslon Pro Bold" FontSize="17" Foreground="#FFF9F9F9" Width="145" Height="25" Click="Button_Click2" />
+    </Grid>
+</Window>
